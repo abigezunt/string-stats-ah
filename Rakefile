@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "string-stats-ah"
   gem.homepage = "http://github.com/abigezunt/string-stats-ah"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Adds string analysis methods to String class}
+  gem.description = %Q{Includes word count, word frequency hash, and unique words list}
   gem.email = "abby.g.howell@gmail.com"
   gem.authors = ["Abby Howell"]
   # dependencies defined in Gemfile
