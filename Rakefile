@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "string-stats-ah"
-  gem.homepage = "http://github.com/abigezunt/string-stats-ah"
+  gem.homepage = "http://github.com/ewe2/string-stats-ah"
   gem.license = "MIT"
   gem.summary = %Q{Adds string analysis methods to String class}
   gem.description = %Q{Includes word count, word frequency hash, and unique words list}
