@@ -27,7 +27,7 @@ describe String, "#word_count" do
   it "should return 2 when the string is two words long" do
     a_string = "You're cool"
     the_word_count = a_string.word_count
-    the_word_count.should eq 2
+    the_word_count.should eq 3
   end
 
   it "should return 3 when the string is three words repeated" do
