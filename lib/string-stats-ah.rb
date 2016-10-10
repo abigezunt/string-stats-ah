@@ -1,12 +1,12 @@
 class String
 
 def word_count
-	arr = self.split(" ")
+	arr = self.strip.split(/\W+/)
 	return arr.length
 end
 
 def word_frequencies
-	arr = self.split(" ")
+	arr = self.split(/\W+/)
 	arr.sort!
 	histogram = Hash.new(0)
 	arr.each do |word|
